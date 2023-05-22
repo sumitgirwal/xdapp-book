@@ -7,7 +7,7 @@ Let's take a moment to pause and spell out the most important security elements 
 
 **What are the Core Security Assumptions of Wormhole?**
 
-- Wormhole's core security primative is its signed messages (signed VAAs).
+- Wormhole's core security primitive is its signed messages (signed VAAs).
 
 - The Guardian network is currently secured by a collection of 19 of the world's top validator companies, [listed here](https://wormhole.com/network/).
 - Guardians produce signed state attestations (signed VAAs), when requested by a Core Contract integrator.
@@ -61,7 +61,7 @@ Wormhole has one of the largest bug bounty programs in all of software developme
 
 Wormhole hosts two bug bounty programs:
 
-- An [Immunifi](https://immunefi.com/) program,
+- An [Immunefi](https://immunefi.com/) program,
 - As well as a [self-hosted program](https://wormhole.com/bounty/)
 
 Both platforms have a top payout of **2.5 million dollars**.
@@ -99,7 +99,7 @@ The Governance system is fully open source in the core repository. Here are some
 
 ## Monitoring
 
-A key element of Wormhole's defense-in-depth strategy is that each Guardian is a highly-competent validator company with their own in-house processes for running, monitoring, and securing blockchain operations. This heterogenous approach to monitoring increases the likelihood that fraudulent activity is detected and reduces the number of single failure points in the system.
+A key element of Wormhole's defense-in-depth strategy is that each Guardian is a highly-competent validator company with their own in-house processes for running, monitoring, and securing blockchain operations. This heterogeneous approach to monitoring increases the likelihood that fraudulent activity is detected and reduces the number of single failure points in the system.
 
 Guardians are not just running Wormhole validators, they're running validators for **every blockchain inside of Wormhole as well**, which allows them to perform monitoring **holistically across decentralized computing**, rather than just at a few single points.
 

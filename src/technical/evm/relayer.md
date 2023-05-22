@@ -52,7 +52,7 @@ The WormholeRelayer contract does not directly send messages. Rather, the Wormho
 
 This allows you to easily combine basic messaging along with other modules of the Wormhole ecosystem, such as the Token Bridge or NFT modules. It even allows for other Wormhole integrators to easily compose with your application! (See [best practices](./bestPractices.md) for more info.)
 
-We'll discuss more complex useage later. For now let's just cover how to send a "Hello World" message. The basic mechanism to request delivery of your VAAs is to call the `send` function on the IWormholeRelayer interface. Here's its basic usage:
+We'll discuss more complex usage later. For now let's just cover how to send a "Hello World" message. The basic mechanism to request delivery of your VAAs is to call the `send` function on the IWormholeRelayer interface. Here's its basic usage:
 
 ```solidity
 function sendHelloWorldMessage() public payable {
@@ -265,7 +265,7 @@ Contrary to `maxTransactionFee`, when specifying a `receiverValue` the RelayProv
 
 ## Forwarding
 
-So far we've discussed how to perform a simple delivery from chain A to chain B. However, a fairly common scenario that you may encounter is that you may want to perform a multi-hop delivery from chain A to B to C, or to round-trip a delivery back to the source chain. Forwarding is a feature specifically designed to suit these usecases.
+So far we've discussed how to perform a simple delivery from chain A to chain B. However, a fairly common scenario that you may encounter is that you may want to perform a multi-hop delivery from chain A to B to C, or to round-trip a delivery back to the source chain. Forwarding is a feature specifically designed to suit these use cases.
 
 Forwarding is quite similar to a normal 'send' action, however it has a couple special traits.
 
